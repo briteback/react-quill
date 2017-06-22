@@ -3,9 +3,9 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var QuillMixin = require('./mixin');
-var find = require('lodash/find');
-var some = require('lodash/some');
-var isEqual = require('lodash/isEqual');
+var find = require('lodash').find;
+var some = require('lodash').some;
+var isEqual = require('lodash').isEqual;
 var T = React.PropTypes;
 
 var QuillComponent = React.createClass({
