@@ -13,8 +13,8 @@
     "type": "git",
     "url": "https://github.com/zenoamaro/react-quill.git"
   },
-  "main": "src/index.js",
-  "browser": "src/index.js",
+  "main": "lib/index.js",
+  "browser": "lib/index.js",
   "engines": {
     "node": ">= 0.8.x"
   },
